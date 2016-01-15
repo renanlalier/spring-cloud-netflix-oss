@@ -1,4 +1,4 @@
-package br.com.finch.appclient.service;
+package br.com.finch.appmicroserviceclient.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.finch.appclient.dao.AbstractDAO;
-import br.com.finch.appclient.to.Pessoa;
+import br.com.finch.appmicroserviceclient.dao.AbstractDAO;
+import br.com.finch.appmicroserviceclient.to.Pessoa;
 
 /**
  * 

@@ -1,4 +1,4 @@
-package br.com.finch.appclient.to;
+package br.com.finch.appmicroserviceclient.to;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

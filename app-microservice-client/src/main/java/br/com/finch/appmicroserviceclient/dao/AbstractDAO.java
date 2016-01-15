@@ -1,4 +1,4 @@
-package br.com.finch.appclient.dao;
+package br.com.finch.appmicroserviceclient.dao;
 
 import java.io.Serializable;
 
@@ -7,7 +7,7 @@ import javax.persistence.PersistenceException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import br.com.finch.appclient.util.HibernateUtil;
+import br.com.finch.appmicroserviceclient.util.HibernateUtil;
 
 /**
  * 

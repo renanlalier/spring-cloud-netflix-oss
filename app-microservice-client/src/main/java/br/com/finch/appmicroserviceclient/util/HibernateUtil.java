@@ -1,4 +1,4 @@
-package br.com.finch.appclient.util;
+package br.com.finch.appmicroserviceclient.util;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
