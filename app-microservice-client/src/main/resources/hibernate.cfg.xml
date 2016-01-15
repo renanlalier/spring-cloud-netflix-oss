@@ -13,7 +13,7 @@
 		<property name="hibernate.ogm.datastore.password"></property>
 
 		<!-- Classes Anotadas -->
-		<mapping class="br.com.finch.appclient.to.Pessoa" />
+		<mapping class="br.com.finch.appmicroserviceclient.to.Pessoa" />
 
 	</session-factory>
 </hibernate-configuration>
