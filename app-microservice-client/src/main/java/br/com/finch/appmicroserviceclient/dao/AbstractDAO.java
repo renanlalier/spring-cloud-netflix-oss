@@ -11,9 +11,10 @@ import br.com.finch.appmicroserviceclient.util.HibernateUtil;
 
 /**
  * 
- * @author Renan
+ * @author Renan Lalier
  * @since 14/01/2016
  * @version 1.0
+ * 
  * 
  *          Classe responsável por manter as operações de CRUD.
  */

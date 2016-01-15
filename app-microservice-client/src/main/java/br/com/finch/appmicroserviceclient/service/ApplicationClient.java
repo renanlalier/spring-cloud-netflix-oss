@@ -13,7 +13,7 @@ import br.com.finch.appmicroserviceclient.to.Pessoa;
 
 /**
  * 
- * @author Renan
+ * @author Renan Lalier
  * @since 14/01/2016
  * @version 1.0
  * 
