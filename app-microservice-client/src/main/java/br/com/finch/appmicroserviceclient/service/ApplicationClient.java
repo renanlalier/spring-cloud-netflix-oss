@@ -64,10 +64,4 @@ public class ApplicationClient {
 		}
 
 	}
-
-	@RequestMapping("/")
-	public String hello() {
-		return "Hello Broww!!";
-	}
-
 }
