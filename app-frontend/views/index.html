@@ -1,44 +1,46 @@
 <!doctype html>
 <html ng-app>
-    <head>
 
-          <title>Finch Soluções</title>
-          
-          <meta charset="utf-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 
-          <!-- Bootstrap -->
-          <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <title>Cadastro</title>
 
-          <link href="../css/styles.css" rel="stylesheet">
-    </head>
-     
-    <body ng-controller="appController">
-          
-          <h1>Cadastro de Pessoa Física</h1>
-                
-          <input type="text" class="form-control" placeholder="Nome Completo" ng-model="pessoa.nome">
-          <input type="text" class="form-control col-md-12" placeholder="RG" ng-model="pessoa.rg">
-          <input type="text" class="form-control col-md-12" placeholder="CPF" ng-model="pessoa.cpf">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-          <br>
-          <div class="row" align="center">
-              <button type="button" class="btn btn-sm btn-primary" ng-click="salvar()">Salvar</button>
-          </div>
+  <!-- Bootstrap -->
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 
-          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-          
-          <!-- Angular -->
-          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
-     
-          <!-- Controller -->
-          <script src="../viewModel/controllers.js"></script>
+  <link href="../assets/css/styles.css" rel="stylesheet">
+</head>
 
-          <script src="../js/xml2json.js"></script>
+<body ng-controller="appController">
 
-          <!-- Include all compiled plugins (below), or include individual files as needed -->
-          <script src="../js/bootstrap.min.js"></script>
-    </body>
+  <h1>Cadastro de Pessoa Física</h1>
+
+  <input type="text" class="form-control" placeholder="Nome Completo" ng-model="pessoa.nome">
+  <input type="text" class="form-control col-md-12" placeholder="RG" ng-model="pessoa.rg">
+  <input type="text" class="form-control col-md-12" placeholder="CPF" ng-model="pessoa.cpf">
+
+  <br>
+  <div class="row" align="center">
+    <button type="button" class="btn btn-sm btn-primary" ng-click="salvar()">Salvar</button>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../assets/js/jquery.min.js"></script>
+
+  <!-- Angular -->
+  <script src="../assets/js/angular.min.js"></script>
+
+  <!-- Controller -->
+  <script src="../viewModel/controllers.js"></script>
+
+  <script src="../assets/js/xml2json.js"></script>
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../assets/js/bootstrap.min.js"></script>
+</body>
+
 </html>
